@@ -51,23 +51,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <allowInsecureRegistries>true</allowInsecureRegistries>
-                    <from>
-                        <image>localhost:5000/openjdk:8-jre-alpine</image>
-                    </from>
-                    <to>
-                        <image>localhost:5000/jibdemo/helloworld</image>
-                        <tags>
-                            <tag>latest</tag>
-                        </tags>
-                    </to>
-                    <container>
-                        <ports>
-                            <port>8080</port>
-                        </ports>
-                    </container>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
